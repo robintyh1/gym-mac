@@ -299,3 +299,7 @@ What's new
 - 2016-05-28: For controlled reproducibility, envs now support seeding
   (cf #91 and #135). The monitor records which seeds are used. We will
   soon add seed information to the display on the scoreboard.
+
+Mac Error
+==========
+Mujoco and gym cannot blend well on new mac. For mujoco-py=0.5.7, the new mac reports error 'Could not open disk'. For mujoco-py=1.5.7, the mac reports 'No module named 'mujoco_py.mjlib'.
